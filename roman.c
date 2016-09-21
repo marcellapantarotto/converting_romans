@@ -15,20 +15,21 @@
 int digit(char c){
 	int value;
 	switch(c){
-		case 'I': value = 1; break;  // I pode ser usado no máximo 3 vezes em cada número
-		case 'IV': value = 4; break; 
-		case 'V': value = 5; break;
-		case 'IX': value = 9; break; 
-		case 'X': value = 10; break;
-		case 'XL': value = 40; break; 
-		case 'L': value = 50; break;
-		case 'XC': value = 90; break; 
-		case 'C': value = 100; break;
-		case 'CD': value = 400; break; 
-		case 'D': value = 500; break;
-		case 'CM': value = 900; break; 
-		case 'M': value = 1000; break;
-		case '0': value = 0; break;
+		//uso do uppercase para nao haver importancia de letras minusculas ou maiusculas
+		uppercase 'I': value = 1; break;  // I pode ser usado no máximo 3 vezes em cada número
+		uppercase 'IV': value = 4; break; 
+		uppercase 'V': value = 5; break;
+		uppercase 'IX': value = 9; break; 
+		uppercase 'X': value = 10; break;
+		uppercase 'XL': value = 40; break; 
+		uppercase 'L': value = 50; break;
+		uppercase 'XC': value = 90; break; 
+		uppercase 'C': value = 100; break;
+		uppercase 'CD': value = 400; break; 
+		uppercase 'D': value = 500; break;
+		uppercase 'CM': value = 900; break; 
+		uppercase 'M': value = 1000; break;
+		uppercase '0': value = 0; break;
 		default: value = -1;
 	}
 	return value;
