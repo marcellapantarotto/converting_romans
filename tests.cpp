@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 #include <gtest/gtest.h>
-#include "conversão_algarismos.c"
+#include "roman.c"
 
 double roman (const double);
 
