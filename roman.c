@@ -1,5 +1,5 @@
 /*
-	CONVERTENDO NUMEORS ROMANOS
+	CONVERTENDO NUMEROS ROMANOS
 
 	Aluna: Marcella Pantarotto
 	Matrícula: 13/0143880
