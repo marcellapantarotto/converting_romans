@@ -23,7 +23,7 @@ TEST (RomanConversionTest, Positive) {
     EXPECT_EQ (49, roman (XLIX));
 }
  
-//testes positivos sobre a conversão dos algarismo
+//testes negativos sobre a conversão dos algarismo
 TEST (RomanConversionTest, Negative) { 	//tentativa:
 	EXPECT_EQ (-1, roman (IIII));		//4
 	EXPECT_EQ (-1, roman (XCV));		//95
