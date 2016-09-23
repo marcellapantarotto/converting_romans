@@ -1,15 +1,7 @@
-/*
-	CONVERTENDO NUMEROS ROMANOS
-
-	Aluna: Marcella Pantarotto
-	Matrícula: 13/0143880
-	Disciplina: Métodos de Programação - UnB
-	Professor: Jan Correa
-*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-//#include "roman.hpp"
+#include "roman.hpp"
 
 
 // funçao que analisa o numero romano inserido e faz as devidas conversoes para transforma-lo em numero decimal
@@ -120,18 +112,9 @@ int digit(char *c){
 }
 
 
-
-
 int main(){
 	char roman[30];
 	int number;
-
-	/*
-	if (roman<=0 || roman>3000){
-		printf("\n%s nao pode ser representado em numeros romanos.\n", roman);
-		return -1;
-	}
-	*/
 
 	printf("\n Escreva um numero romano ate 3000 (digitos validos: I, V, X, L, C, D, M): ");
 	scanf("%s", roman);
