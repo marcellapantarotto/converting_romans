@@ -24,7 +24,7 @@ tests: $(TESTS).cpp
 
 	ar -rv libgtest.a gtest-all.o
 
-	$(CC) -isystem ${GTEST_DIR}/include -pthread /usr/include/gtest-all.cc libgtest.a \
+	$(CC) -isystem ${GTEST_DIR}/include -pthread /usr/lib/gtest-all.cc libgtest.a \
     -o tests
 
 clean:
