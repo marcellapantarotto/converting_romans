@@ -1,8 +1,9 @@
 Universidade de Brasília
-Aluna: Marcella Pantaotto
-Matrícula: 13/0143880
-Disicplina: Métodos de Programação
-Professor: Jan Correa
+
+Aluna: Marcella Pantaotto; Matrícula: 13/0143880
+
+Disicplina: Métodos de Programação; Professor: Jan Correa
+
 
 Este programa tem o propósito de, dado um certo valor, em números romanos, converter este número para seu devido valor em número arábicos (base decimal). Para o mesmo, foram desenvolidos testes, para comprovar a funcionalidade do programa. Os testes foram divididos em duas partes
 
