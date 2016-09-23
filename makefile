@@ -7,20 +7,25 @@ CC = g++
 CFLAGS  = -g -Wall
 
   # the build target executable:
-TARGET = convert3
+TARGET = roman
 TESTS = tests
 
-all: convert3
+all: roman
 
-convert3: $(TARGET).cpp
+roman: $(TARGET).cpp
 	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
-	./convert3
+	./roman
 
 # -ftest-coverage -fprofile-arcs
 
 tests: $(TESTS).cpp
-	$(CC) convert4 -o $(TESTS) $(TESTS).cpp
-	./tests
+	$(CC) -isystem $(TESTS)/include -I$(TESTS) \
+		-pthread -c $(TESTS)/usr/include/gtest-all.cc
+
+	ar -rv libgtest.a gtest-all.o
+
+	$(CC) -isystem ${GTEST_DIR}/include -pthread /usr/include/gtest-all.cc libgtest.a \
+    -o tests
 
 clean:
-	$(RM) $(TARGET)
+	$(RM) $(TARGET) $(TESTS)
