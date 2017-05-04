@@ -1,9 +1,3 @@
-Universidade de Brasília
-
-Aluna: Marcella Pantarotto; Matrícula: 13/0143880
-
-Disciplina: Métodos de Programação; Professor: Jan Correa
-
 	CONVERSÃO DE NÚMERO ROMANOS		
 
 Este programa tem o propósito de, dado um certo valor, em números romanos, converter este número para seu devido valor em número arábicos (base decimal). Para o mesmo, foram desenvolidos testes, para comprovar a funcionalidade do programa. Os testes foram divididos em duas partes
